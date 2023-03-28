@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 #### remove unnecessary debian packages
 function remove-apt-package () {

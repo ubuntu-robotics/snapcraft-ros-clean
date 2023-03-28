@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #### remove unnecessary files
 # remove every header and source file
 fdfind --type file --type symlink '.*\.(hpp|hxx|h|hh|cpp|cxx|c|cc)$' $SNAPCRAFT_PRIME  --exec rm {}

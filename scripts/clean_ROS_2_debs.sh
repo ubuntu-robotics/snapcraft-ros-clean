@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 . clean_debs.sh
 
