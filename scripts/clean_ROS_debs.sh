@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. clean_debs.sh
+. "$(dirname "$0")/clean_debs.sh"
 
 remove-apt-package ros-$ROS_DISTRO-cmake-modules
 remove-apt-package ros-$ROS_DISTRO-gencpp

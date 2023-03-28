@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. clean_debs.sh
+. "$(dirname "$0")/clean_debs.sh"
 
 remove-apt-package ros-$ROS_DISTRO-rosidl-adapter
 remove-apt-package ros-$ROS_DISTRO-rosidl-generator-c
