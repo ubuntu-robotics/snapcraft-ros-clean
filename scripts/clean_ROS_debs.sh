@@ -8,7 +8,6 @@ remove-apt-package ros-$ROS_DISTRO-gencpp
 remove-apt-package ros-$ROS_DISTRO-geneus
 remove-apt-package ros-$ROS_DISTRO-genmsg
 remove-apt-package ros-$ROS_DISTRO-gennodejs
-remove-apt-package ros-$ROS_DISTRO-genpy
 remove-apt-package ros-$ROS_DISTRO-message-generation
 remove-apt-package ros-$ROS_DISTRO-roslint
 remove-apt-package ros-$ROS_DISTRO-roslisp
