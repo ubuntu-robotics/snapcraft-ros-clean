@@ -6,7 +6,6 @@ set -x
 remove-apt-package ros-$ROS_DISTRO-cmake-modules
 remove-apt-package ros-$ROS_DISTRO-gencpp
 remove-apt-package ros-$ROS_DISTRO-geneus
-remove-apt-package ros-$ROS_DISTRO-genmsg
 remove-apt-package ros-$ROS_DISTRO-gennodejs
 remove-apt-package ros-$ROS_DISTRO-message-generation
 remove-apt-package ros-$ROS_DISTRO-roslint
